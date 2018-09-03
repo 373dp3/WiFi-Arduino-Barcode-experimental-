@@ -1,0 +1,22 @@
+{
+    "client":{
+        "beep": {
+            "onOk": {
+                "hz": 4000,
+                "volume": 128,
+                "pattern": [50]
+            },
+            "onError": {
+                "hz": 4000,
+                "volume": 512,
+                "pattern": [50,50,50,50,50,50,50,50,50,50,50,50,50,50,50,50]
+            }
+        }
+    },
+    "upload":{
+        "interval_sec": 60,
+        "dbpath": "upload_queue.db"
+    },
+    "loadSheetId": "",
+    "loadSheetConfigOnBoot": 1
+}
